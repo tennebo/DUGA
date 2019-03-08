@@ -1,5 +1,7 @@
 __pycache__/
 Andet/
 build/
+.idea/
 dist/
 pyinstaller.exe
+
