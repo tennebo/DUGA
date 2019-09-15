@@ -7,8 +7,8 @@ class Music:
 
     def __init__(self):
         self.settings_volume = SETTINGS.volume * 0.8
-        self.base_track = pygame.mixer.Sound(os.path.join('sounds', 'music', 'soft_layer.ogg'))
-        self.hard_track = pygame.mixer.Sound(os.path.join('sounds', 'music', 'hard_layer.ogg'))
+        self.base_track = pygame.mixer.Sound(os.path.join('sounds', 'music', 'yeetSong.ogg'))
+        self.hard_track = pygame.mixer.Sound(os.path.join('sounds', 'music', 'yeetSong.ogg'))
 
         self.hard_volume = 0
         self.menu_volume = self.settings_volume * 0.8
